@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html,body {
+    font-family: 'Montserrat', sans-serif;
+    @apply bg-gradient-to-tl from-slate-500 to-blue-500 text-white bg-fixed h-full
+}
+.title {
+    @apply font-extrabold my-3 text-center
+}
+.page {
+    @apply max-w-screen-md mx-auto pt-10 px-3
+}
+.page-sm {
+    @apply max-w-screen-sm
+}
